@@ -23,5 +23,5 @@ module.exports = (gulp)->
       .pipe rev()
       .pipe gulp.dest(gulp.paths.DIST)
 
-    gulp.src miscSources, {base: 'app/bower_components'}
+    gulp.src miscSources, {base: './bower_components'}
       .pipe gulp.dest(gulp.paths.DIST + '/bower_components')
