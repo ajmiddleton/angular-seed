@@ -1,0 +1,16 @@
+{
+  "name": "angular-seed",
+  "version": "0.0.0",
+  "authors": [
+    "Andrew Middleton <middleton.andrew.j@gmail.com>"
+  ],
+  "description": "angular seed project",
+  "main": "app.coffee",
+  "keywords": [
+    "angular",
+    "seed",
+    "template"
+  ],
+  "license": "MIT",
+  "private": true
+}
