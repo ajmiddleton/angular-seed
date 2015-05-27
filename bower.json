@@ -12,5 +12,12 @@
     "template"
   ],
   "license": "MIT",
-  "private": true
+  "private": true,
+  "dependencies": {
+    "angular": "~1.4.0",
+    "lodash": "~3.9.3",
+    "bootstrap": "~3.3.4",
+    "angular-ui-router": "~0.2.15",
+    "restangular": "~1.5.1"
+  }
 }
