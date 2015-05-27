@@ -17,9 +17,9 @@ module.exports = (gulp)->
     return target.pipe(inject(sources)).on('error', gutil.log).pipe(gulp.dest(gulp.paths.DIST))
 
   gulp.task 'build', 'Will produce public folder', (cb)->
-    compile = ['compile-coffee', 'compile-jade', 'compile-less', 'minify-bower', 'copy-styles', 'copy-images', 'copy-fonts', 'copy-vendor']
+    compile = ['compile-coffee', 'compile-jade', 'compile-less', 'minify-bower']
     runSequence 'clean', compile, 'build-index', cb
 
   gulp.task 'build-dev', 'Will produce the /public folder for development', (cb)->
-    compile = ['compile-coffee-dev', 'compile-jade', 'compile-less', 'minify-bower', 'copy-styles', 'copy-images', 'copy-fonts', 'copy-vendor']
+    compile = ['compile-coffee-dev', 'compile-jade', 'compile-less', 'minify-bower']
     runSequence 'clean', compile, 'build-index', cb

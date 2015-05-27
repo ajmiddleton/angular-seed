@@ -1,6 +1,6 @@
 gulp = require('gulp-help')(require('gulp'))
 gulp.paths = {}
-gulp.paths.DIST = __dirname + '/../public'
+gulp.paths.DIST = __dirname + '/dist'
 
 fs = require('fs')
 path = require('path')

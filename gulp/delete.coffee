@@ -6,8 +6,3 @@ module.exports = (gulp)->
       gulp.paths.DIST
     ], {force: true}, cb
     return
-
-  gulp.task 'delete-haml', 'Deletes all haml files in app/modules', (cb)->
-    del [
-      'app/modules/**/*.haml'
-    ], cb
